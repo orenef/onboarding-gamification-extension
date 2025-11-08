@@ -1,0 +1,22 @@
+{
+  "name": "onboarding-gamification-extension",
+  "version": "1.0.0",
+  "description": "Gamified onboarding extension for Gemini CLI.",
+  "type": "module",
+  "main": "dist/mcp-server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/mcp-server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.1.0",
+    "sqlite3": "^5.1.7",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "@types/sqlite3": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
